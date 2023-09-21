@@ -79,3 +79,9 @@ ul {
     color: white;
     padding: 4px 4px;
 }
+
+.title {
+    font-size: 96px;
+    font-weight: 600;
+    text-align: center;
+}
