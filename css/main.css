@@ -1,0 +1,81 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1),
+            rgba(255, 255, 255, 0.7)),
+        url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    min-height: 100vh;
+    padding: 48px;
+}
+
+@media screen and(max-width:768px) {
+    .container {
+        padding: 24px;
+    }
+}
+
+.content {
+    max-width: 500px;
+}
+
+.avatar {
+    height: 240px;
+    width: 148px;
+    margin-bottom: 8px;
+    box-shadow: 10px 10px 10px 0px black;
+}
+
+.name {
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+@media screen and(max-width:768px) {
+    .name {
+        font-size: 36px;
+    }
+}
+
+.job {
+    font-size: 18px;
+    margin-bottom: 24px;
+    padding: 4px 4px;
+}
+
+.about {
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 24px;
+    padding: 4px 4px;
+}
+
+ul {
+    padding: 4px 4px;
+    list-style: none
+}
+
+.contact {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.contact-item {
+    margin-bottom: 4px;
+}
+
+.contact-icon {
+    margin-right: 12px;
+    width: 16px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 4px 4px;
+}
