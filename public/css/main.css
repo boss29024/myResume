@@ -26,7 +26,8 @@ body {
 .avatar {
     height: 240px;
     width: 148px;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
+    margin-right: 24px;
     box-shadow: 10px 10px 10px 0px black;
 }
 
@@ -45,6 +46,16 @@ body {
     font-size: 18px;
     margin-bottom: 24px;
     padding: 4px 4px;
+}
+
+.header {
+    display: flex;
+}
+
+.image-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .about {
